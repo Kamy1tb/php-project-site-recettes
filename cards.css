@@ -1,0 +1,645 @@
+@font-face {
+    font-family: 'inter-black';
+    src: url('./font/Inter-Black.ttf ');
+    font-weight: normal;
+    font-style: normal;
+    }
+@font-face {
+        font-family: 'inter-semibold';
+        src: url('./font/Inter-SemiBold.ttf ');
+        font-weight: normal;
+        font-style: normal;
+        }
+@font-face {
+        font-family: 'inter-regular';
+        src: url('./font/Inter-Regular.ttf ');
+        font-weight: normal;
+        font-style: normal;
+        }
+ @font-face {
+        font-family: 'manrope-regular';
+        src: url('./Manrope/Manrope-Regular.ttf');
+        font-weight: normal;
+        font-style: normal;
+        }
+@font-face {
+            font-family: 'manrope-semibold';
+            src: url('./Manrope/Manrope-SemiBold.ttf');
+            font-weight: normal;
+            font-style: normal;
+            }  
+
+@font-face {
+            font-family: 'manrope-bold';
+            src: url('./Manrope/Manrope-Bold.ttf');
+            font-weight: normal;
+            font-style: normal;
+            }  
+
+@font-face {
+            font-family: 'manrope-extrabold';
+            src: url('./Manrope/Manrope-ExtraBold.ttf');
+            font-weight: normal;
+            font-style: normal;
+            } 
+
+@font-face {
+              font-family: 'manrope-light';
+              src: url('./Manrope/Manrope-Light.ttf');
+              font-weight: normal;
+              font-style: normal;
+              } 
+@font-face {
+            font-family: 'inter-ExtraBold';
+            src: url('./font/Inter-ExtraBold.ttf ');
+            font-weight: normal;
+            font-style: normal;
+            }
+  
+h1{
+font-family:'inter-ExtraBold' ;
+
+}
+
+h5{
+  font-family:'inter-ExtraBold' ;
+
+}
+nav{
+    background-color: white;
+}
+
+
+.card-title{
+font-family: 'inter-semibold';
+font-size: 16px;
+}
+.card-text{
+font-family: 'inter-semibold';
+color: #425466;
+font-size: 12px;
+}
+.btn-primary{
+font-family: 'inter-semibold';
+background-color: #1878F3;
+font-size: 12px;
+border-radius: 6px;
+}
+.card-img-top{
+    border-radius: 16px;
+    padding: 2%;
+}
+.card{
+    border-radius: 16px;
+    height: 20rem;
+   
+}
+
+.nav-link{
+   font-family: 'manrope-regular';
+   font-size: 20px;
+   
+}
+
+
+
+.navbar-nav{
+    margin-left: 5%;
+    
+}
+
+#decouverte{
+    font-family: 'manrope-bold';
+    font-size: 48px;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+
+.row{
+    display: flex;
+    justify-content: center;
+
+}
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+  }
+  .card img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  #carousel-cards-prev-cards {
+  margin-top: 15% ;
+  margin-right: 50%;
+  margin-left: 10%;
+ 
+  width: 2%;
+  height: 10%;
+  border-radius: 20%;
+}
+
+#carousel-cards-next-cards {
+    margin-top: 15% ;
+    margin-left: 50%;
+    margin-right: 10%;
+    
+    width: 2%;
+    height: 10%;
+    border-radius: 20%;
+    
+    
+  }
+
+  .text-catégorie{
+    font-family: 'manrope-bold';
+    font-size: 28px;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .catégories{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+  }
+
+  .carousel-indicators-cards li{
+    background-color: #1878F3;
+  
+    width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  }
+
+  .carousel-item-cards{
+    height: 26rem;
+    background-color:#F7F7F7;
+     border-radius: 16px;
+  }
+
+#navbarNav{
+  display : flex;
+  justify-content: center;
+}
+
+
+.row{
+  display: flex;
+  justify-content: center;
+
+}
+#recette-image{
+ border-radius: 16px;
+}
+
+#titre-recette{
+ font-family: 'manrope-extrabold';
+ font-size: 36px;
+ margin-left: 22%;
+ 
+}
+
+.container-image{
+ margin-top: 2%;
+
+}
+ .ratings i{
+     padding-top:7% ;
+     color:#cecece;
+     font-size:24px;
+
+ }
+ .rating-color{
+     color:#fbc634 !important;
+ }
+
+ 
+ .text-image{
+  display: flex;
+  justify-content: center;
+ }
+
+ .image-recette{
+   display: flex;
+  justify-content: center;
+ }
+
+ .container-information{
+   margin-top: 3%;
+ }
+ .titre-blue{
+   font-family: 'inter-ExtraBold';
+   font-size: 28px;
+   color:#1878F3;
+   margin-right: 10%;
+ }
+
+ .container-desc{
+   border: #1878F3;
+   border-style: solid;
+   border-width: 1px;
+   border-radius: 16px;
+   display: flex;
+   justify-content: center;
+   margin-right: 10%;
+ 
+ }
+
+ .container-vid{
+  border: #1878F3;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 16px;
+
+}
+
+ #text-description{
+   font-family: 'inter-semibold';
+   font-size: 16px;
+   color: #425466;
+   margin: 2%;
+ }
+
+.carousel-indicators-cards{
+  margin-left:47% ;
+  margin-right: 50%;
+  width: fit-content;
+}
+.container-temps{
+text-align: center;
+}
+.titre-temps{
+font-family: "manrope-light";
+font-size: 20px;
+}
+
+.valeur-temps{
+  font-family: "inter-semibold";
+  font-size: 24px;
+}
+
+.container p{
+  margin-left: 25%;
+  margin-top: 1%;
+}
+
+.container-icon {
+  display: flex;
+  justify-content: center;
+  margin-right: 8%;
+  margin-top: 2%;
+}
+
+.carousel-indicators-news{
+  margin-left:47% ;
+  margin-right: 50%;
+  width: fit-content;
+  margin-top: 50%;
+}
+
+.container-news{
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.carousel-item-news{
+  height: 50rem;
+
+  background-color:#F7F7F7;
+   border-radius: 16px;
+}
+
+.carousel-indicators-news li{
+  background-color: #1878F3;
+
+  width: 10px;
+height: 10px;
+border-radius: 100%;
+}
+
+.news-titre{
+  text-align: center;
+}
+#titre-news{
+  font-family: 'manrope-extrabold';
+  font-size: 36px;
+
+  
+ }
+
+
+ .connect{
+  border-radius: 9px;
+  text-align: center;
+  font-family: 'manrope-semibold';
+  font-size: 16px;
+  background-color:  #1878F3;
+  color: white;
+  width: 138px;
+  height: 45px;
+  margin-left: 17%;
+ 
+  
+}
+
+
+
+
+h2 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display:inline-block;
+  margin: 40px 8px 10px 8px; 
+  color: #cccccc;
+}
+
+
+
+/* STRUCTURE */
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column; 
+  justify-content: center;
+  width: 100%;
+  min-height: 100%;
+  padding: 20px;
+}
+
+#formContent {
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  background: #fff;
+  padding: 30px;
+  width: 90%;
+  max-width: 450px;
+  position: relative;
+  padding: 0px;
+  -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+#formFooter {
+  background-color: #f6f6f6;
+  border-top: 1px solid #dce8f1;
+  padding: 25px;
+  text-align: center;
+  -webkit-border-radius: 0 0 10px 10px;
+  border-radius: 0 0 10px 10px;
+}
+
+
+
+/* TABS */
+
+h2.inactive {
+  color: #cccccc;
+}
+
+h2.active {
+  color: #0d0d0d;
+  border-bottom: 2px solid #5fbae9;
+}
+
+
+
+/* FORM TYPOGRAPHY*/
+
+
+
+
+
+input[type=button]:active, input[type=submit]:active, input[type=reset]:active  {
+  -moz-transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -o-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  transform: scale(0.95);
+}
+
+input[type=text],input[type=password] {
+  background-color: #f6f6f6;
+  border: none;
+  color: #0d0d0d;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  width: 85%;
+  border: 2px solid #f6f6f6;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+input[type=text]:focus,input[type=password]:focus{
+  background-color: #fff;
+  border-bottom: 2px solid #5fbae9;
+}
+
+input[type=text]:placeholder {
+  color: #cccccc;
+}
+
+
+
+/* ANIMATIONS */
+
+/* Simple CSS3 Fade-in-down Animation */
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+/* Simple CSS3 Fade-in Animation */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fadeIn {
+  opacity:0;
+  -webkit-animation:fadeIn ease-in 1;
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+}
+
+.fadeIn.first {
+  -webkit-animation-delay: 0.4s;
+  -moz-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+
+.fadeIn.second {
+  -webkit-animation-delay: 0.6s;
+  -moz-animation-delay: 0.6s;
+  animation-delay: 0.6s;
+}
+
+.fadeIn.third {
+  -webkit-animation-delay: 0.8s;
+  -moz-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+}
+
+.fadeIn.fourth {
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+/* Simple CSS3 Fade-in Animation */
+.underlineHover:after {
+  display: block;
+  left: 0;
+  bottom: -10px;
+  width: 0;
+  height: 2px;
+  background-color: #56baed;
+  content: "";
+  transition: width 0.2s;
+}
+
+.underlineHover:hover {
+  color: #0d0d0d;
+}
+
+.underlineHover:hover:after{
+  width: 100%;
+}
+
+
+
+/* OTHERS */
+
+*:focus {
+    outline: none;
+} 
+
+#icon {
+  width:60%;
+}
+
+#calories-barre{
+  font-family: 'manrope-bold';
+    font-size: 16px;
+}
+
+.container-ingr{
+  border: #1878F3;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 16px;
+  margin-right: 10%;
+
+}
+
+input[type=file] {
+  width: 550px;
+  max-width: 100%;
+  color: #444;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #555;
+}
+
+
+input[type=file]::file-selector-button {
+  margin-right: 20px;
+  border: none;
+  background: #084cdf;
+  padding: 4px 15px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.searc-ingr button {
+  color: #084cdf;
+  background-color: white;
+  border-color: #084cdf;
+  border-width: 1px;
+
+}
+
+#delete{
+background-color: red;
+border-width: 0px;
+color: white;
+}
+
+#delete_et{
+  background-color: red;
+  border-width: 0px;
+  color: white;
+  }
+
+#add{
+  background-color: #198754;
+  border-width: 0px;
+  color: white;
+  }
+
+  #add_et{
+    background-color: #198754;
+    border-width: 0px;
+    color: white;
+    }
+
